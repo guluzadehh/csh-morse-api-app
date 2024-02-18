@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MorseTranslateApp", "MorseTranslateApp.csproj", "{6EAA1E88-853E-4201-B27F-CF6161B0C448}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D530E215-CC8D-46A4-A057-247E4CE8C1E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandApp", "Lib\csh-console-library\CommandApp.csproj", "{7E5F69EF-D15A-49AE-A85C-1D1B7A3DE8F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EAA1E88-853E-4201-B27F-CF6161B0C448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAA1E88-853E-4201-B27F-CF6161B0C448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAA1E88-853E-4201-B27F-CF6161B0C448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAA1E88-853E-4201-B27F-CF6161B0C448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5F69EF-D15A-49AE-A85C-1D1B7A3DE8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5F69EF-D15A-49AE-A85C-1D1B7A3DE8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5F69EF-D15A-49AE-A85C-1D1B7A3DE8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5F69EF-D15A-49AE-A85C-1D1B7A3DE8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E5F69EF-D15A-49AE-A85C-1D1B7A3DE8F6} = {D530E215-CC8D-46A4-A057-247E4CE8C1E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A4CDEE6-A8E2-4CB9-9B47-5B24FF04CF99}
+	EndGlobalSection
+EndGlobal
